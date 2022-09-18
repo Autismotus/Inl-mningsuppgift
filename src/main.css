@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto, sans-serif;"
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #F8EDA8;
+    height: 50px;
+    align-items: center;
+    color: black;
+}
+
+.navitem {
+    font-family: 'Courier New', monospace;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url(C:\Users\isakt\reactuppgift\src\glasses.jpg);
+    background-size: cover;
+    color: white;
+    width: 100%;
+}
+
+header {
+    width: 50%;
+    float: right;
+    height: 60px;
+    line-height: 60px;
+}
+
+.site-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 16vh;
+}
+
+.title {
+    border: 2px solid white;
+    padding: 10px 20px;
+    width: 800px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 8px;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+ul li {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+ul li:hover {
+    color: yellow;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 50%;
+    min-height: 80vh;
+    
+
+}
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: rgba(2, 0, 0, 0.8);
+    
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #E67954;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  
